@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchBox = ({ onFieldValueChange }) => {
+function SearchBox({ onFieldValueChange }) {
   return (
     <div className="pa-2">
       <input
@@ -11,6 +11,6 @@ const SearchBox = ({ onFieldValueChange }) => {
       />
     </div>
   );
-};
+}
 
 export default SearchBox;
